@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 
-import { HeaderButtonProps, HeaderTabsValues } from "../types";
+import { HeaderButtonProps, HeaderTabsValues } from "../../types";
 
 export default function HeaderTabs() {
 	const [activeTab, setActiveTab] = useState<string>(
