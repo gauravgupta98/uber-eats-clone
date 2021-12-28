@@ -4,6 +4,11 @@ export type HeaderButtonProps = {
 	setActiveTab: Function;
 };
 
+export type HeaderTabsProps = {
+	activeTab: string;
+	setActiveTab: Function;
+};
+
 export const HeaderTabsValues = {
 	delivery: "Delivery",
 	pickup: "Pickup",
@@ -16,4 +21,17 @@ export type RestaurantImageProps = {
 export type RestaurantInfoProps = {
 	name: string;
 	rating: number;
+};
+
+export type Restaurant = {
+	name: string;
+	image_url: string;
+	categories: Array<string>;
+	price: string;
+	reviews: number;
+	rating: number;
+};
+
+export type RestaurantItemsProps = {
+	restaurants: Array<Restaurant>;
 };

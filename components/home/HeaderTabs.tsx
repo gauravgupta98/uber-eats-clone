@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 
-import { HeaderButtonProps, HeaderTabsValues } from "../../types";
+import {
+	HeaderButtonProps,
+	HeaderTabsProps,
+	HeaderTabsValues,
+} from "../../types";
 
-export default function HeaderTabs() {
-	const [activeTab, setActiveTab] = useState<string>(
-		HeaderTabsValues.delivery
-	);
-
+export default function HeaderTabs({
+	activeTab,
+	setActiveTab,
+}: HeaderTabsProps) {
 	return (
 		<View style={{ alignSelf: "center", flexDirection: "row" }}>
 			<HeaderButton
