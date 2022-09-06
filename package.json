@@ -12,8 +12,8 @@
   "dependencies": {
     "expo": "~46.0.10",
     "expo-status-bar": "~1.4.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-native": "0.70.0",
     "react-native-dotenv": "^3.3.1",
     "react-native-google-places-autocomplete": "^2.4.1",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
-    "@types/react": "~17.0.21",
+    "@types/react": "~18.0.18",
     "@types/react-native": "~0.64.12",
     "@types/react-native-dotenv": "^0.2.0",
     "@types/react-native-vector-icons": "^6.4.12",
