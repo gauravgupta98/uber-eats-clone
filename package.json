@@ -14,7 +14,7 @@
     "expo-status-bar": "~3.0.8",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "react-native": "0.82.1",
+    "react-native": "0.83.0",
     "react-native-dotenv": "^3.4.11",
     "react-native-google-places-autocomplete": "^2.6.1",
     "react-native-vector-icons": "^10.3.0",
