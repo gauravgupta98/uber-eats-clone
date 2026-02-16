@@ -13,7 +13,7 @@
     "expo": "~54.0.31",
     "expo-status-bar": "~3.0.8",
     "react": "19.2.3",
-    "react-dom": "19.2.0",
+    "react-dom": "19.2.3",
     "react-native": "0.83.1",
     "react-native-dotenv": "^3.4.11",
     "react-native-google-places-autocomplete": "^2.6.4",
