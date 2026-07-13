@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "expo": "~55.0.20",
-    "expo-status-bar": "~56.0.4",
+    "expo-status-bar": "~57.0.0",
     "react": "19.2.5",
     "react-dom": "19.2.5",
     "react-native": "0.86.0",
