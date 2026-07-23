@@ -15,7 +15,7 @@
     "react": "19.2.5",
     "react-dom": "19.2.5",
     "react-native": "0.86.0",
-    "react-native-dotenv": "^3.4.11",
+    "react-native-dotenv": "^3.4.12",
     "react-native-google-places-autocomplete": "^2.6.4",
     "react-native-vector-icons": "^10.3.0",
     "react-native-web": "0.21.2"
